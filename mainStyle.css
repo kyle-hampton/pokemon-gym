@@ -1,0 +1,52 @@
+#gym{
+	height: 69vh;
+	width: 99vw;
+	background-image: url('library/images/gym.png');
+	background-size: 100% 100%;
+	position: absolute;
+	max-width: 1010px;
+}
+#door{
+	top: 78%;
+	left: 47.8%;
+    width: 54px;
+    height: 87px;
+	position: absolute;
+	transition: transform .5s;
+	transform-style: preserve-3d;
+	transform-origin: right center;
+}
+#sky{
+	width: 99vw;
+	height: 10vh;
+	background-color: #8FB8FF;
+	max-width: 1010px;
+}
+#welcome{
+	height: 100%;
+	width: 40%;
+	position: relative;
+	background-image: url('library/images/welcome.png');
+	background-size: 100% 100%;
+	left: 32%;
+}
+#ground{
+	height: 10vh;
+	width: 99vw;
+	background-color: #416C26;
+	position: absolute;
+	max-width: 1010px;
+	bottom: 11.1%;
+}
+#gymName{
+	background-image: url('library/images/viridian.png');
+	background-size: 100% 100%;
+	height: 80%;
+	width: 50%;
+	position: relative;
+	left:23%;
+}
+#door:hover{
+    background-image: url('library/images/Meowth.png');
+    background-size: 100% 100%;
+}
